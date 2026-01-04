@@ -125,15 +125,5 @@ kubectl get nodes
   ```bash
   kind delete cluster --name dev-cluster
   ```
-  Removes Docker containers/networks.
-
----
-
-## 📥 Loading Images
-
-To test local images inside KIND:
-```bash
-kind load docker-image myapp:latest --name dev-cluster
-```
-
+  This removes the Docker containers and networks. If it fails, open Docker Desktop, go to the Containers tab, and manually delete all related containers.
 ---
