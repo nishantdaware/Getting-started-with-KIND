@@ -40,7 +40,7 @@ Long‑running production workloads or environments requiring cloud provider int
 ## 📦 Installation
 
 ### 1. Install Docker
-- **Windows/macOS:** Install Docker Desktop  
+- **Windows/macOS:** Download and install from the [official Docker documentation](https://docs.docker.com/desktop/setup/install/windows-install/)[1]  
 - **Linux:**  
   ```bash
   sudo apt install docker.io
